@@ -1,0 +1,49 @@
+/**
+ * ui-lib v1.0.0
+ * 
+ * @author qianlw
+ * 
+ * @date 2014-10-10
+ * 
+ * @update 2014-10-11
+ */
+label{
+	cursor: pointer;
+}
+
+.ui-icon{
+ 	background-image: url(ui-lib.png);
+ 	background-repeat: no-repeat;
+ 	display: inline-block;
+ 	*display: inline;
+ 	*zoom: 1;
+}
+
+/* 单选 */
+.ui-radiobox input[type="radio"]{
+	display: none;
+}
+.ui-radio{
+	background-position: -16px 0;
+	width: 15px;
+	height: 15px;
+	margin-right: 3px;
+	cursor: pointer;
+}
+.ui-radio.checked{
+	background-position: 0 0;
+}
+
+.ui-checkbox{
+	background-position: -17px -17px;
+	width: 15px;
+	height: 15px;
+	margin-right: 3px;
+	cursor: pointer;
+}
+.ui-checkbox.checked{
+	background-position: 0 -17px;
+}
+.ui-checkbox input[type="checkbox"]{
+	display: none;
+}
